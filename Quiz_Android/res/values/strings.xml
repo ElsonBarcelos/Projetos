@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz_Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bemvindo">WELCOME</string>
+    <string name="to">TO THE</string>
+    <string name="quiz">QUIZ</string>
+    <string name="btnJogar">JOGAR </string>
+    <string name="title_activity_pergunta_um">PerguntaUmActivity</string>
+    <string name="PerguntaUm">Quantos gols Ronaldo tem na histórias das copas?</string>
+    <string name="Radio1PerguntaUm">9</string>
+    <string name="Radio2PerguntaUm">18</string>
+    <string name="Radio3PerguntaUm">15</string>
+    <string name="Radio4PerguntaUm">5</string>
+    <string name="btnProximo">Próximo</string>
+    <string name="title_activity_pergunta_dois">PerguntaDoisActivity</string>
+    <string name="PerguntaDois">Quem é o maior artilheiro em copas do mundo?</string>
+    <string name="Radio1PerguntaDois">Pelé</string>
+    <string name="Radio2PerguntaDois">Maradona</string>
+    <string name="Radio3PerguntaDois">Zidane</string>
+    <string name="Radio4PerguntaDois">Ronaldo</string>
+    <string name="btnProximo2">Próximo</string>
+    <string name="title_activity_pergunta_tres">PerguntaTresActivity</string>
+    <string name="PerguntaTres">O Revolucionário termo WWW(World Wie Wibe) foi criado por?</string>
+    <string name="Radio1PerguntaTres">Paul Baran</string>
+    <string name="Radio2PerguntaTres">Tim Berners-Lee</string>
+    <string name="Radio3PerguntaTres">Bill Gates</string>
+    <string name="Radio4PerguntaTres">Mark Zuckerberg</string>
+    <string name="btnProximo3">Próximo</string>
+    <string name="title_activity_pergunta_quatro">PerguntaQuatroActivity</string>
+    <string name="PerguntaQuatro">Qual o nome da sigla HTML?</string>
+    <string name="Radio1PerguntaQuatro">Hyper Text Merchandising Language</string>
+    <string name="Radio2PerguntaQuatro">Hyper Text Markup Legend</string>
+    <string name="Radio3PerguntaQuatro">Hyper Teste Markup Language</string>
+    <string name="Radio4PerguntaQuatro">Hyper Text Markup Language</string>
+    <string name="btnProximo4">Próximo</string>
+    <string name="title_activity_pergunta_cinco">PerguntaCincoActivity</string>
+    <string name="PerguntaCinco">Famoso farol da antiguidade. Uma das sete maravilhas do mundo antigo.</string>
+    <string name="Radio1PerguntaCinco">Macedônia</string>
+    <string name="Radio2PerguntaCinco">Alexandria</string>
+    <string name="Radio3PerguntaCinco">Taj Mahal</string>
+    <string name="Radio4PerguntaCinco">Stonehenge</string>
+    <string name="btnFim">Fim</string>
+    <string name="title_activity_fim">FimActivity</string>
+	<string name="FimJogo"> FIM DE JOGO !!!</string>
+    <string name="Score"></string>
+    <string name="btnSair">Sair</string>
+    <string name="btnJogarNovamente">Jogar Novamente</string>
+    
+</resources>

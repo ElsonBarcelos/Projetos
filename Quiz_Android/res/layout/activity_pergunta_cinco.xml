@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PerguntaCincoActivity" >
+
+    <TextView
+        android:id="@+id/PerguntaCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/PerguntaCinco" 
+        android:textSize="14sp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/PerguntaCinco"
+        android:layout_marginTop="28dp" >
+
+        <RadioButton
+            android:id="@+id/radio1PerguntaCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio1PerguntaCinco" />
+
+        <RadioButton
+            android:id="@+id/radio2PerguntaCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio2PerguntaCinco" />
+
+        <RadioButton
+            android:id="@+id/radio3PerguntaCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio3PerguntaCinco" />
+        
+        <RadioButton
+            android:id="@+id/radio4PerguntaCinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio4PerguntaCinco" />
+        
+        
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnFim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnFim" />
+
+</RelativeLayout>
