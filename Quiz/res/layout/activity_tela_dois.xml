@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaDoisActivity" >
+
+    <TextView
+        android:id="@+id/pergunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/pergunta2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pergunta2"
+        android:layout_marginTop="21dp" >
+
+        <RadioButton
+            android:id="@+id/radio1QuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio1QuestaoDois" />
+
+        <RadioButton
+            android:id="@+id/radio2QuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio2QuestaoDois" />
+
+        <RadioButton
+            android:id="@+id/radio3QuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio3QuestaoDois" />
+   
+        <RadioButton
+            android:id="@+id/radio4QuestaoDois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Radio4QuestaoDois" />
+   
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/btnProximo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pergunta2"
+        android:text="@string/Proximo2" />
+
+</RelativeLayout>
+
+
+
