@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/escova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escova" />
+
+            <CheckBox
+                android:id="@+id/escova2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escova de dente" />
+
+            <CheckBox
+                android:id="@+id/pasta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pasta de dente" />
+
+            <CheckBox
+                android:id="@+id/shampoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shampoo" />
+
+            <CheckBox
+                android:id="@+id/condicionador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Condicionador" />
+
+            <CheckBox
+                android:id="@+id/sabonete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabonete" />
+
+            <CheckBox
+                android:id="@+id/desodorante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desodorante" />
+
+            <CheckBox
+                android:id="@+id/creme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creme" />
+
+            <CheckBox
+                android:id="@+id/contonete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contonete" />
+
+            <CheckBox
+                android:id="@+id/perfume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfume" />
+
+            <CheckBox
+                android:id="@+id/barba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pós barba" />
+
+            <CheckBox
+                android:id="@+id/prestobarba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prestobarba" />
+
+            <CheckBox
+                android:id="@+id/papel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Papel higiênico" />
+
+            <CheckBox
+                android:id="@+id/protetor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protetor" />
+
+            <CheckBox
+                android:id="@+id/listerine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listerine" />
+
+            <CheckBox
+                android:id="@+id/bronze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bronzeador" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

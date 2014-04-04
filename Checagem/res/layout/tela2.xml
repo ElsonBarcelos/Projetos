@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/checar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/camisa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="camisa" />
+
+            <CheckBox
+                android:id="@+id/bermuda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="short" />
+
+            <CheckBox
+                android:id="@+id/cueca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cueca" />
+
+            <CheckBox
+                android:id="@+id/sapato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sapato" />
+
+            <CheckBox
+                android:id="@+id/meia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meia" />
+
+            <CheckBox
+                android:id="@+id/livro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="livro" />
+
+            <CheckBox
+                android:id="@+id/bone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="boné" />
+
+            <CheckBox
+                android:id="@+id/sandalia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sandália" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
